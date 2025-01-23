@@ -10,7 +10,7 @@ arr.forEach(button => {
             string=eval(string);
             input.value=string;
         }
-        else if (e.target.innerHTML == 'AC') {
+        else if (e.target.innerHTML == 'Ac') {
             string = "";
             input.value = string;
         } 
@@ -23,5 +23,5 @@ arr.forEach(button => {
             string += e.target.innerHTML;
             input.value = string;
         }
-    });
+    })
 });
